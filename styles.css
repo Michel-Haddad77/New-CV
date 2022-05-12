@@ -31,6 +31,7 @@ a:hover {
 
 .hidden{
     display: none;
+    transition: width 2s;
 }
 
 .title:hover + .hidden{
@@ -38,5 +39,15 @@ a:hover {
 }
 
 h2{
-    padding-bottom: -10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.uni{
+    display:none;
+    font-style: italic;
+    margin-left: 2%;
+}
+
+.degree:hover + .uni{
+    display: block
 }
