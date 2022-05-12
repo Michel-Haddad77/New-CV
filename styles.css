@@ -26,7 +26,6 @@
 .container2:hover{
     background-color: black;
     color: white;
-    
 }
 
 img{
@@ -45,8 +44,31 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.degree{
+    font-weight: bold;
+}
 .uni{
     font-style: italic;
     margin-left: 2%;
+    font-size: small;
 }
 
+.work-info{
+    margin-left: 2%;
+    font-size: small;
+}
+
+button{
+    height: 20%;
+    width: 50%;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    align-self: center;
+}
