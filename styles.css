@@ -16,7 +16,8 @@
 .container2{
     display: flex;
     flex-direction: column;
-    border: 2;
+    border-style: solid;
+    border-radius: 15px;
     margin:1%;
     padding: 1%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -24,7 +25,6 @@
 
 .container2:hover{
     background-color: black;
-    border-radius: 15px;
     color: white;
     
 }
@@ -46,11 +46,7 @@ h2{
 }
 
 .uni{
-    display:none;
     font-style: italic;
     margin-left: 2%;
 }
 
-.degree:hover + .uni{
-    display: block
-}
